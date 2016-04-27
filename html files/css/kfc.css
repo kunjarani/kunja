@@ -1,0 +1,312 @@
+body{
+
+  background-color: #940000;
+}
+.image{
+  background: #940000;
+}
+
+
+.logo{
+  margin-top:  15px;
+  width: 140px;
+  height: 64px;
+}
+.headerlist{
+  display: inline;
+  text-decoration: none;
+
+}
+
+
+.navlist{
+  background-color:#B80000;
+  margin-top: 30px;
+padding-bottom: 20px;
+padding-top: 10px;
+}
+
+
+#k1 {text-decoration: none;
+  color: white;
+  font-family: cursive;
+font-size: 15px;
+padding-top: 60px;}
+
+#k1:hover{
+  text-decoration: none;
+    color: yellow;
+  }
+
+.wrap{
+  background-color: #580000;
+}
+  /*margin-top: 50px;}*/
+  .wrap1{
+    padding-top: 50px;
+    background-color:#700000 ;
+    padding-bottom: 100px;}
+
+
+
+.title{ font-family: 'Lobster', cursive;
+  color: white;
+  text-shadow: 5px 10px 10px yellow;}
+#kh2{
+  font-size:20px;
+  font-family: 'Passion One', cursive;
+  padding-top: 30px;
+  color: yellow;}
+  #kh1{
+    font-size:20px;
+    font-family: 'Passion One', cursive;
+    padding-top: 30px;
+    color: yellow;}
+
+    #kh3{
+      font-size:20px;
+      font-family: 'Passion One', cursive;
+      padding-top: 30px;
+      color: yellow;
+
+
+}
+ #para3:hover{
+  text-decoration: none;
+  color:skyblue;
+}
+#para2:hover{
+ text-decoration: none;
+ color:skyblue;
+}
+#para1:hover{
+ text-decoration: none;
+ color:skyblue;
+}
+
+
+#para1, #para2, #para3  { text-decoration: none;
+
+  color: white;
+}
+.hero{
+  margin-top: 50px;
+}
+#herotitle{
+
+  text-align: center;
+  font-family: 'Chewy',cursive;
+  font-size: 50px; color:#F0F0F0;
+text-shadow: 5px 10px 10px black;}
+}
+
+
+#herologo{
+   width: 960px;
+  height: 550px;
+  margin-right: 14px;
+
+}
+
+
+
+
+
+section {
+    width: 1200px;
+  height: 300px;
+}
+.section1{
+  padding-bottom: 150px;
+  background-color:#500000;
+padding-top: 30px ;
+}
+
+#ss1{
+  text-align: center;
+  font-size: 40px;
+  padding-top: 25px;
+    font-family: 'Anton', sans-serif;
+  color: white;
+  text-shadow: 5px 10px 10px yellow;
+}
+#kfcking {
+  width: 480px;
+  height: 430px;
+
+}
+
+#ss2{
+  font-size: 25px;
+  padding-top: 20px;
+  padding-left: 20px;
+  font-family: 'PT Sans Narrow', sans-serif;
+  color: #FF9900;
+}
+.section2{
+  padding-top: 20px;
+  background-color:#500000;
+padding-bottom: 50px;
+
+}
+
+  #ss3{
+    text-align: center; font-size: 40px;   color: white;
+      text-shadow: 5px 10px 10px yellow;
+  font-family: 'Anton', sans-serif;}
+    #ss4{
+      font-size: 30px;
+      padding-top: 10px;
+      font-family: 'PT Sans Narrow', sans-serif;
+      color: #FF9900;
+    }
+
+#superfan{
+  width: 450px;
+}
+.image{
+  color:red;
+}
+/*text-decoration: none !important;
+}
+
+.footer{
+
+  background: grey;
+  font-family: sans-serif;
+  font-size: 20px;
+  padding-top: 50px;
+  text-decoration: none;
+}
+
+/*.c1  { float:left;}
+.c2{display: inline-block;
+}
+.c3{display: inline-block;
+}
+
+.c5{float: right; position: relative;
+}
+.a5{ margin-top: 10px
+  padding-top: 10px;
+
+}
+.images{
+
+  padding-bottom: 50px;
+  position: absolute;
+  top: 20px;right: 20px;
+}
+.quality{
+  padding-bottom: 50px;
+}
+
+.c1, .c2, .c3,.c5{
+  width:25%;
+  height:50px;
+
+}
+
+
+/*.c4{
+  float:left;
+}
+.c4{
+  float:left;
+}
+.c4{
+  float:left;
+}
+.c4{
+  float:left;
+}*/
+.footer1{
+  background: black;
+  height:200px;
+
+}
+/*.footersection{
+  display: inline-block;
+  width:60%;
+  padding-top: 50px;
+}
+.footersection ul li{
+  display: inline;
+}
+.footerimage ul li{
+  display: inline;
+}
+.footer1id{
+  display: inline;
+  /*padding-top: 0px*/
+/*#footerpara{
+  font-size: 15px;
+  color:white;
+  margin-left: 200px;
+  padding-top: 30px;
+}
+.footerdiv {
+  padding-bottom: 0px;
+}
+#f1{
+margin-top: 10px;
+  color: white;
+  font-size: 20px;
+
+}
+.images{
+  display: inline;
+}
+.footerimage{
+
+  width:20%;
+
+}
+.footerlogo{
+
+
+}*/
+.footer1{
+  padding-top: 30px;
+  padding-bottom: 10px;
+  text-align: center;
+  font-size: 20px;
+  background: black;}
+  #f1{ text-decoration: none;
+
+
+  }
+
+}
+.footersection{
+  text-align: center;
+  margin: auto;
+}
+.footerlogo{
+  text-align: right;
+  margin: auto;
+}
+#footerpara{
+  color: white;
+  font-size: 18px;
+}
+#mail{
+  color: yellow;
+  font-size: 20px;
+}
+.foodmenu{
+text-align: center;
+font-family: 'Chewy',cursive;
+padding-bottom: 30px;
+
+}
+#fodmenu{
+  font-size: 80px; color:white;
+text-shadow: 5px 10px 10px yellow;}
+.omg, .dwg, .fmg{
+  padding-left: 80px;
+}
+h3{
+  color: white;
+  padding-top: 20px;
+}
