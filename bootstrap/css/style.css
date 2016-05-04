@@ -1,0 +1,123 @@
+
+
+#mymenu{
+  margin-top: 80px;
+  font-size: 80px;
+  text-align: center;
+
+}
+#fodmenu
+{
+  font-family: cursive;
+  color: white;
+  margin-bottom: 50px;
+  font-size: 100px;
+}
+
+#aboutus{
+  font-family: cursive;
+
+}
+#myhome{
+  font-family: cursive;
+  color: white;
+
+}
+#port{
+  font-family: cursive;
+}
+#giftcard{
+  font-family: cursive;
+}
+#myaccount{
+  font-family: cursive;
+}
+#herootitle {
+  text-align: center;
+font-family: 'Chewy',cursive;
+font-size: 80px; color: yellow;
+text-shadow: 5px 10px 10px black;}
+
+
+.lead {
+  font-family: 'PT Sans Narrow', sans-serif;
+font-size: 30px;
+color: #FF9900;
+border-radius: #880000;
+border: brown;
+}
+
+.lead1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+font-size: 30px;
+color: #FF9900;
+text-align: center;
+background-color: black:}
+
+#featuresheading{
+  text-align: center;
+  font-size: 40px;
+
+    font-family: 'Anton', sans-serif;
+  color: white;
+  text-shadow: 5px 10px 10px yellow;}
+  #featuresHeading {
+
+background-color: black;}
+
+#bigCallout{
+  background:#940000 ;
+}
+
+.well,.page-header
+{
+  background: #940000;
+  border:  #880000;
+
+
+}
+#lead2{
+    background:  #880000;
+  border:  #880000;
+
+}
+.para4,.para5 {
+  font-size:60px;
+  font-family: 'Lobster', cursive;
+
+  color:white;
+
+
+}
+
+
+
+#sec1 { font-family: 'Lobster', cursive;
+  color: white;
+  text-shadow: 5px 10px 10px yellow;
+text-align: center;
+font-size: 40px;}
+
+#moreCourses{
+  background:#940000 ;}
+
+
+#lir, #sfz{
+
+  font-family: cursive;
+  color:yellow;
+
+}
+#features{
+  background: black;
+}
+.panel,.panel-heading{
+  background: black;
+  border: black;
+}
+.head{
+  color: white;
+}
+#ap{
+  color:white;
+}

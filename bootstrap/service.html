@@ -1,0 +1,343 @@
+<!doctype html>
+<html>
+<head>
+  <meta name="description"content="">
+  <meta name="viewport" content="width=device-width",initial-scale=1.0,maximum-scale=1.0, user-scalable="no">
+  <title>kfcboot</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css" >
+  <link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+  <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- <link href="bootstrap/css/bootstrap.css" rel="stylesheet" > -->
+  <link href="includes/css/styles.css" rel="stylesheet">
+  <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Passion+One' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Merriweather:300italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Anton' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Chewy' rel='stylesheet' type='text/css'>
+
+
+
+
+
+
+  <script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+</head>
+<body>
+  <div class="container" id="main">
+    <nav class="navbar navbar-fixed-top">
+      <div class="container">
+        <button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <a class="navbar-brand" href="/"><img src="img/LOGOO.png"alt="your logo"></a>
+        <div class="nav-collapse collapse navbar-responsive-collapse">
+          <ul class= " nav navbar-nav ">
+            <li id="myhome"> <a href="#" id="ap" > MY HOME </a></li>
+            <li id="port"> <a href="portfolioo.html" id="ap" > PORTFOLIO</a></li>
+            <li class="dropdown"  id= "aboutus"> <a href="#" id="ap" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              ABOUT US <span class="caret" ></span></a>
+              <ul class="dropdown-menu">
+                <li> <a href="#"> History </a> </li>
+                <li> <a href="#"> Colonel Sanders </a> </li>
+                <li> <a href="#">Secret Reciepe</a> </li>
+              </ul>
+            </li>
+          </ul>
+
+          <form class="navbar-form pull-left" role="search">
+            <input type="text" class="form-control" placeholder="search this site..." id="searchInput">
+            <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span>
+            </button>
+          </form>
+          <ul class="nav navbar-nav pull-right">
+            <li id="giftcard"><a href="#" id="ap" >ORDERONLINE</a></li>
+            <li class="dropdown" id="myaccount"> <a href="#" id="ap" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span  class="glyphicon glyphicon-user"></span>
+              MYACCOUNT</a>
+              <ul class="dropdown-menu">
+                <li> <a href="#">help</a></li>
+                <li> <a href="#">login</a></li>
+                <li> <a href="#">logout</a></li>
+              </ul>
+            </li>
+          </ul>
+
+        </div></div>
+      </nav>
+
+      <div class="carousel slide" id="myCarousel">
+        <!--Indicators-->
+        <ol class="carousel-indicators">
+          <li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+          <li data-slide-to="1" data-target="#myCarousel"></li>
+          <li data-slide-to="2" data-target="#myCarousel"></li>
+        </ol>
+
+        <!-- Wrapper for slides -->
+        <div class="carousel-inner">
+          <div class="item active" id="slide1">
+            <div class="carousel-caption">
+              <!-- <h4>kfc</h4> -->
+              <!-- <p>OUR FAMOUS BUCKET BRINGS FAMILIES TOGETHER</p> -->
+            </div><!-- end carousel-caption-->
+          </div><!-- end item -->
+
+          <div class="item" id="slide2">
+            <div class="carousel-caption">
+              <!-- <h4>Learn to code a website in 4-hours!</h4> -->
+              <!-- <p>PSD to HTML5 &amp; CSS3 is a popular Udemy course that has helped thousands of aspiring web designers launch their web design career.</p> -->
+            </div><!-- end carousel-caption-->
+          </div><!-- end item -->
+
+          <div class="item" id="slide3">
+            <div class="carousel-caption">
+              <!-- <h4>Web Hosting 101</h4> -->
+              <!-- <p>Learn how to buy a perfect domain name and hosting package, and get your website live on the web with ease.</p> -->
+            </div><!-- end carousel-caption-->
+          </div><!-- end item -->
+        </div>  <!-- carousel-inner -->
+
+          <!-- Controls -->
+          <a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+          <a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+          <!-- <a class="left carousel-control" href="#myCarousel" role="button"  data-slide="prev" ><span class="glyphicon glyphicon-chevron-left"></span> -->
+          <!-- <span class="sr-only">Previous</span></a> -->
+          <!-- <a class="right carousel-control"  href="#myCarousel" role="button"  data-slide="next" ><span class="glyphicon glyphicon-chevron-right"></span> -->
+          <!-- <span class="sr-only">Next</span></a> -->
+
+
+
+      </div>
+
+      <div class="row" id="bigCallout">
+        <div class="col-12 " >
+          <div class="alert alert-sucess alert-block fade in" id="successAlert">
+            <button type="button" class ="close" data-dismiss="alert">&times;</button>
+            <h4>survey!</h4>
+            <p>Welcome to the KFC Customer Survey.we value your candid feedback and appreciate you taking the time to complete our survey </p>
+          </div>
+          <div class="well well-small visible-sm ">
+            <a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon
+              glyphicon-phone"></span> Give us a call!</a>
+            </div>
+          <div class="well" id="lead2">
+              <div class="page-header">
+                <h1 id="herootitle">
+                  KFC<small>#soogood<small></h1>
+                  </div>
+                  <p class ="lead">OUR FAMOUS BUCKET BRINGS FAMILIES TOGETHER.FROM RAISING CHICKEN TO COOKING YOUR FAVOURITE MEAL ONLY THE BEST WILL DO. </p>
+                  <a href="" class="btn  btn-primary" id="alertMe">Hungry? CLICK HERE</a>
+                  <a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span>FEEDBACK US</a>
+                    <div class="modal fade" id="myModal">
+                      <div class="modal-dialog">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button class="close"  data-dismiss="modal" >&times;</button>
+
+                            <h4 class="modal-title">ONLINE ORDER</h4>
+                          </div><!-- end modal-header -->
+                          <div class="modal-body">
+                          </div>
+                          <form class="form-horizontal">
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputName">Name</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputName" placeholder="Name" type="text">
+                              </div>
+                            </div>
+
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputEmail">Email</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                              </div>
+                            </div>
+                            <div class="form-group">
+                              <label class="col-lg-2 control-label" for="inputName">description</label>
+                              <div class="col-lg-10">
+                                <input class="form-control" id="inputName" placeholder="description" type="text">
+                              </div>
+                            </div>
+
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary" >order</button>
+                              </div><!-- end modal-footer -->
+                            </form>
+                          </div><!-- end modal-content -->
+                        </div><!-- end modal-dialog -->
+                      </div><!-- end myModal -->
+
+                  </div>
+                </div>
+              </div>
+
+
+
+
+                <div class="row" id="featuresHeading">
+                  <div class="col-12">
+                    <h3 id="featuresheading">WITH KFC TASTY DEALS</h3>
+                    <p class="lead1">You will only need small change to enjoy great taste at great everyday affordable value! </p>
+                  </div>
+                </div>
+                <div class="row" id="features">
+                  <div class="col-sm-4 feature">
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <!-- <h3 class="panel-title">kfcheadings</h3> -->
+                        <div>
+                          <img src="images/kfc7.png" alt="html" class="img-circle">
+                          <p>KFC has grown into one of the largest quick service food service brands in the world with more than a billion “so good” KFC dinners served annually in more than 80 countries and territories.</p>
+                          <a href="https://www.udemy.com/build-beautiful-html5-wesite/" target="-blank"
+                          class="btn btn-warning btn-block">Find out more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 feature">
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <!-- <h3 class="panel-title">kfcheadings</h3> -->
+                        <div>
+                          <img src="images/kfc15.png" alt="html" class="img-circle">
+                          <p>We're so committed to meeting your need for reliable, and on time delivery that we have modern call-centers across the region, well-trained and friendly agents waiting to take your order. </p>
+                          <a href="https://www.udemy.com/build-beautiful-html5-wesite/" target="-blank"
+                          class="btn btn-danger btn-block">Tell me more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-sm-4 feature">
+                    <div class="panel">
+                      <div class="panel-heading">
+                        <!-- <h3 class="panel-title">kfcheadings</h3> -->
+                        <div>
+                          <img src="images/kfc17.png" alt="html" class="img-circle">
+                          <p> KFC's quality chicken has kept customers coming in for decades to the
+                            legacy, all our chicken is cooked from scratch, having been freshly breaded in-store, by hand, for that tasty coating.</p>
+                          <a href="http://getbootstrap.com/" target=""et="-blank"
+                          class="btn btn-info btn-block">Find out more</a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                </div>
+
+                <!-- <div class="row" id="moreInfo">
+              </div>-->
+              <hr>
+
+
+              <div class="row" id="moreCourses">
+                <div class="col-12 ">
+                  <h3 id="sec1">WE DELIVER TASTE</h3>
+                  <div class="col-6" >
+                    <div class="thumbnail">
+                      <img src="images/mqdefault(9).jpg" alt="kfcking">
+                      <div class="caption">
+                        <h3 id="lir">LIFE IN RECIPIES<h3>
+                          <p class="para4">Kentucky Fried Chicken, pioneered by Colonel Harland Sanders, has grown to become one of
+                            the largest quick service food service systems in the world - with more than a billion  Kentucky Fried Chicken dinners served annually
+                            in more than 80 countries </p>
+                            <p><a href="" class="btn btn-primary btn-small" target="-blank">Read our story</a><!-- <a href="" target="-blank" class="btn btn-small btn-link">Quality&taste</a>--></p>
+                          </div></div>
+                        </div>
+                        <div class="col-6">
+                          <div class="thumbnail">
+                            <img src="images/spz.jpg" alt="kfcking">
+                            <div class="caption">
+                              <h3 id="sfz">SUPER FAN ZONE<h3>
+                                <p class="para5"><!--KFC rules the roost when it comes to serving chicken. Operated by Yum! Restaurants International-->.Our mission is to bring you #SoGood experiences that make you feel like you are part of something big. A great online and offline movement that
+                                  revolves around you and is just for you</p>
+                                  <p><a href="" class="btn btn-primary btn-small" target="-blank">Join the community</a><!-- <a href="" target="-blank" class="btn btn-small btn-link">lean more</a>--></p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+
+                      </div>
+                      <footer>
+
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-sm-2">
+                              <h6>Copyright &copy; 2013 {name}</h6>
+                            </div><!-- end col-sm-2 -->
+
+                            <div class="col-sm-2">
+                              <h6>Our Story</h6>
+                              <ul class="unstyled">
+                                <li><a href="#">History</a></li>
+                                <li><a href="#">Colonel Sanders</a></li>
+                                <li><a href="#">KFCDelivery</a></li>
+                                <li><a href="#">TV Ads</a></li>
+                              </ul>
+
+                            </div><!-- end col-sm-4 -->
+
+                            <div class="col-sm-2">
+                              <h6>Menu</h6>
+                              <ul class="unstyled">
+                                <li><a href="#">Shared Meals</a></li>
+                                <li><a href="#">Individual Meals</a></li>
+                                <li><a href="#">Xtreme Meals</a></li>
+                                <li><a href="#">Tasty Deals</a></li>
+                              </ul>
+                            </div><!-- end col-sm-2 -->
+                            <!-- <div class="col-sm-2">
+                            <h6>Quality&Taste</h6>
+                            <ul class="unstyled">
+                            <li><a href="#">Freshly Prepared</a></li>
+                            <li><a href="#">Gold standards</a></li>
+                            <li><a href="#">Halal</a></li>
+                          </ul></div>
+                        </div>-->
+
+                        <div class="col-sm-2">
+                          <h6>Follow Us</h6>
+                          <div   class="images">
+                            <img src="img/facebook-icon-1.png" alt="kfd" id= "facebook">
+                            <img src="img/youtube-icon.png" alt="yt" id= "youtube">
+                            <img src="img/twitter-icon.png" alt="twit" id= "twitter">
+                            <img src="img/android-icon.png" alt="ad" id= "ad"></div></div>
+
+                            <div class="col-sm-2">
+                              <img src="img/kfc16.png" alt="flogo" id= "footlogo"></div>
+
+
+
+
+
+
+
+                            </div>
+                            <!-- </div> -->
+                          </footer>
+
+
+
+
+                          <!-- First try for the online version of jQuery-->
+                          <script src="http://code.jquery.com/jquery.js"></script>
+
+                          <!-- If no online access, fallback to our hardcoded version of jQuery -->
+                          <script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+                          <!-- Bootstrap JS -->
+                          <script src="bootstrap/js/bootstrap.min.js"></script>
+
+                          <!-- Custom JS -->
+                          <script src="includes/js/script.js"></script>
+                        </body>
+                        </html>
